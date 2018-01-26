@@ -1,0 +1,104 @@
+{
+	"somministrazioni": [{
+		"id": 1,
+		"dataInizio": "2011-11-14 20:41:37 +0100",
+		"dataFine": "2011-11-14 20:41:37 +0100",
+		"stato": "0",
+		"statoTerapia": "Anamnesi",
+		"tipoTerapia": "tipo",
+		"farmaci": [{
+			"nomeCommerciale": "TACHIPIRINA",
+			"sostanza": "PARACETAMOLO",
+			"dosaggio": "1",
+			"unitaDiMisura": "compressa"
+		},
+		{
+			"nomeCommerciale": "GENERICO",
+			"sostanza": "PARACETAMOLO",
+			"dosaggio": "2",
+			"unitaDiMisura": "compresse"
+		}],
+		"velocita": [{
+			"dataInizio": "2011-11-14 20:41:37 +0100",
+			"dataFine": "2011-11-14 20:41:37 +0100",
+			"velocita": "media"
+		},
+		{
+			"dataInizio": "2011-11-14 20:41:37 +0100",
+			"dataFine": null,
+			"velocita": "a manetta"
+		}],
+		"via_somministrazione": {
+			"codice": "ABC",
+			"descrizione": "ORALE"
+		}
+	},
+	{
+		"id": 2,
+		"dataInizio": "2011-11-14 20:41:37 +0100",
+		"dataFine": "2011-11-14 20:41:37 +0100",
+		"stato": "I",
+		"statoTerapia": "Chiusa",
+		"tipoTerapia": "terapia tipo",
+		"farmaci": [{
+			"nomeCommerciale": "TACHIFLUIDEC",
+			"sostanza": "PARACETAMOLO CONCENTRATO",
+			"dosaggio": "1",
+			"unitaDiMisura": "compressa"
+		},
+		{
+			"nomeCommerciale": "GENERICO",
+			"sostanza": "EBOLA",
+			"dosaggio": "20",
+			"unitaDiMisura": "mg"
+		}],
+		"velocita": [{
+			"dataInizio": "2011-07-14 19:43:37 +0100",
+			"dataFine": "2011-07-14 19:43:37 +0100",
+			"velocita": "bassa"
+		},
+		{
+			"dataInizio": "2011-07-14 19:43:37 +0100",
+			"dataFine": "2011-07-14 19:43:37 +0100",
+			"velocita": "alta"
+		}],
+		"via_somministrazione": {
+			"codice": "FGB",
+			"descrizione": "ENDOVENA"
+		}
+	},
+	{
+		"id": 3,
+		"dataInizio": "2011-11-14 20:41:37 +0100",
+		"dataFine": "2011-11-15 21:12:37 +0100",
+		"stato": "S",
+		"statoTerapia": "Prescritta",
+		"tipoTerapia": "la solita",
+		"farmaci": [{
+			"nomeCommerciale": "BETOTAL",
+			"sostanza": "SCONOSCIUTA",
+			"dosaggio": "3",
+			"unitaDiMisura": "cucchiai"
+		},
+		{
+			"nomeCommerciale": "GENERICO",
+			"sostanza": "PENNICILLINA",
+			"dosaggio": "3",
+			"unitaDiMisura": "compresse"
+		}],
+		"velocita": [{
+			"dataInizio": "2011-06-10 19:23:37 +0100",
+			"dataFine": "2011-06-14 14:43:37 +0100",
+			"velocita": "lentissima"
+		},
+		{
+			"dataInizio": "2011-05-11 17:43:33 +0100",
+			"dataFine": "2011-05-12 16:33:45 +0100",
+			"velocita": "media"
+		}],
+		"via_somministrazione": {
+			"codice": "DEF",
+			"descrizione": "RETTALE"
+		}
+	}]
+}
